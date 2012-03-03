@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87ADA2831502888100764CCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2821502888100764CCE /* Foundation.framework */; };
+		87ADA2891502888100764CCE /* DrawingLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA2881502888100764CCE /* DrawingLib.m */; };
+		87ADA2911502888100764CCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2901502888100764CCE /* SenTestingKit.framework */; };
+		87ADA2931502888200764CCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2921502888200764CCE /* UIKit.framework */; };
+		87ADA2941502888200764CCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2821502888100764CCE /* Foundation.framework */; };
+		87ADA2971502888200764CCE /* libDrawingLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA27F1502888100764CCE /* libDrawingLib.a */; };
+		87ADA29D1502888200764CCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87ADA29B1502888200764CCE /* InfoPlist.strings */; };
+		87ADA2A01502888200764CCE /* DrawingLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA29F1502888200764CCE /* DrawingLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87ADA2951502888200764CCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87ADA2761502888100764CCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87ADA27E1502888100764CCE;
+			remoteInfo = DrawingLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87ADA27F1502888100764CCE /* libDrawingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDrawingLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ADA2821502888100764CCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87ADA2861502888100764CCE /* DrawingLib-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingLib-Prefix.pch"; sourceTree = "<group>"; };
+		87ADA2871502888100764CCE /* DrawingLib.h */ = {isa = PBXFileReference; path = DrawingLib.h; sourceTree = "<group>"; };
+		87ADA2881502888100764CCE /* DrawingLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingLib.m; sourceTree = "<group>"; };
+		87ADA28F1502888100764CCE /* DrawingLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ADA2901502888100764CCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		87ADA2921502888200764CCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87ADA29A1502888200764CCE /* DrawingLibTests-Info.plist */ = {isa = PBXFileReference; path = "DrawingLibTests-Info.plist"; sourceTree = "<group>"; };
+		87ADA29C1502888200764CCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87ADA29E1502888200764CCE /* DrawingLibTests.h */ = {isa = PBXFileReference; path = DrawingLibTests.h; sourceTree = "<group>"; };
+		87ADA29F1502888200764CCE /* DrawingLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87ADA27C1502888100764CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADA2831502888100764CCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87ADA28B1502888100764CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADA2911502888100764CCE /* SenTestingKit.framework in Frameworks */,
+				87ADA2931502888200764CCE /* UIKit.framework in Frameworks */,
+				87ADA2941502888200764CCE /* Foundation.framework in Frameworks */,
+				87ADA2971502888200764CCE /* libDrawingLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87ADA2741502888100764CCE = {
+			isa = PBXGroup;
+			children = (
+				87ADA2841502888100764CCE /* DrawingLib */,
+				87ADA2981502888200764CCE /* DrawingLibTests */,
+				87ADA2811502888100764CCE /* Frameworks */,
+				87ADA2801502888100764CCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87ADA2801502888100764CCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA27F1502888100764CCE /* libDrawingLib.a */,
+				87ADA28F1502888100764CCE /* DrawingLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87ADA2811502888100764CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA2821502888100764CCE /* Foundation.framework */,
+				87ADA2901502888100764CCE /* SenTestingKit.framework */,
+				87ADA2921502888200764CCE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87ADA2841502888100764CCE /* DrawingLib */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA2871502888100764CCE /* DrawingLib.h */,
+				87ADA2881502888100764CCE /* DrawingLib.m */,
+				87ADA2851502888100764CCE /* Supporting Files */,
+			);
+			path = DrawingLib;
+			sourceTree = "<group>";
+		};
+		87ADA2851502888100764CCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA2861502888100764CCE /* DrawingLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87ADA2981502888200764CCE /* DrawingLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA29E1502888200764CCE /* DrawingLibTests.h */,
+				87ADA29F1502888200764CCE /* DrawingLibTests.m */,
+				87ADA2991502888200764CCE /* Supporting Files */,
+			);
+			path = DrawingLibTests;
+			sourceTree = "<group>";
+		};
+		87ADA2991502888200764CCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA29A1502888200764CCE /* DrawingLibTests-Info.plist */,
+				87ADA29B1502888200764CCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87ADA27D1502888100764CCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87ADA27E1502888100764CCE /* DrawingLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87ADA2A31502888200764CCE /* Build configuration list for PBXNativeTarget "DrawingLib" */;
+			buildPhases = (
+				87ADA27B1502888100764CCE /* Sources */,
+				87ADA27C1502888100764CCE /* Frameworks */,
+				87ADA27D1502888100764CCE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingLib;
+			productName = DrawingLib;
+			productReference = 87ADA27F1502888100764CCE /* libDrawingLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87ADA28E1502888100764CCE /* DrawingLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87ADA2A61502888200764CCE /* Build configuration list for PBXNativeTarget "DrawingLibTests" */;
+			buildPhases = (
+				87ADA28A1502888100764CCE /* Sources */,
+				87ADA28B1502888100764CCE /* Frameworks */,
+				87ADA28C1502888100764CCE /* Resources */,
+				87ADA28D1502888100764CCE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87ADA2961502888200764CCE /* PBXTargetDependency */,
+			);
+			name = DrawingLibTests;
+			productName = DrawingLibTests;
+			productReference = 87ADA28F1502888100764CCE /* DrawingLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87ADA2761502888100764CCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 87ADA2791502888100764CCE /* Build configuration list for PBXProject "DrawingLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87ADA2741502888100764CCE;
+			productRefGroup = 87ADA2801502888100764CCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87ADA27E1502888100764CCE /* DrawingLib */,
+				87ADA28E1502888100764CCE /* DrawingLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87ADA28C1502888100764CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADA29D1502888200764CCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87ADA28D1502888100764CCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87ADA27B1502888100764CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADA2891502888100764CCE /* DrawingLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87ADA28A1502888100764CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADA2A01502888200764CCE /* DrawingLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87ADA2961502888200764CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87ADA27E1502888100764CCE /* DrawingLib */;
+			targetProxy = 87ADA2951502888200764CCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87ADA29B1502888200764CCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87ADA29C1502888200764CCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87ADA2A11502888200764CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87ADA2A21502888200764CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87ADA2A41502888200764CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DrawingLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingLib/DrawingLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87ADA2A51502888200764CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DrawingLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingLib/DrawingLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		87ADA2A71502888200764CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingLib/DrawingLib-Prefix.pch";
+				INFOPLIST_FILE = "DrawingLibTests/DrawingLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		87ADA2A81502888200764CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawingLib/DrawingLib-Prefix.pch";
+				INFOPLIST_FILE = "DrawingLibTests/DrawingLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87ADA2791502888100764CCE /* Build configuration list for PBXProject "DrawingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87ADA2A11502888200764CCE /* Debug */,
+				87ADA2A21502888200764CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87ADA2A31502888200764CCE /* Build configuration list for PBXNativeTarget "DrawingLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87ADA2A41502888200764CCE /* Debug */,
+				87ADA2A51502888200764CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87ADA2A61502888200764CCE /* Build configuration list for PBXNativeTarget "DrawingLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87ADA2A71502888200764CCE /* Debug */,
+				87ADA2A81502888200764CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87ADA2761502888100764CCE /* Project object */;
+}
