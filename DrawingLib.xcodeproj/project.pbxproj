@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8746689B150AD5FD00104803 /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 87466899150AD5FD00104803 /* Rectangle.h */; };
+		8746689C150AD5FD00104803 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746689A150AD5FD00104803 /* Rectangle.m */; };
+		874668A0150ADC5B00104803 /* Bullseye.h in Headers */ = {isa = PBXBuildFile; fileRef = 8746689E150ADC5B00104803 /* Bullseye.h */; };
+		874668A1150ADC5B00104803 /* Bullseye.m in Sources */ = {isa = PBXBuildFile; fileRef = 8746689F150ADC5B00104803 /* Bullseye.m */; };
+		877463881502A3D900AD035D /* AnimationLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 877463861502A3D800AD035D /* AnimationLoop.h */; };
+		877463891502A3D900AD035D /* AnimationLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 877463871502A3D800AD035D /* AnimationLoop.m */; };
+		8774638C1502A46900AD035D /* AnimationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774638B1502A46900AD035D /* AnimationDelegate.h */; };
+		877463FA1502BBD300AD035D /* Circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 877463F81502BBD300AD035D /* Circle.h */; };
+		877463FB1502BBD300AD035D /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 877463F91502BBD300AD035D /* Circle.m */; };
+		877463FE1502BBE000AD035D /* Shape.h in Headers */ = {isa = PBXBuildFile; fileRef = 877463FC1502BBE000AD035D /* Shape.h */; };
+		877463FF1502BBE000AD035D /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 877463FD1502BBE000AD035D /* Shape.m */; };
+		877464021502C53900AD035D /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 877464001502C53900AD035D /* Image.h */; };
+		877464031502C53900AD035D /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 877464011502C53900AD035D /* Image.m */; };
 		87ADA2831502888100764CCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2821502888100764CCE /* Foundation.framework */; };
 		87ADA2891502888100764CCE /* DrawingLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA2881502888100764CCE /* DrawingLib.m */; };
 		87ADA2911502888100764CCE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2901502888100764CCE /* SenTestingKit.framework */; };
@@ -15,6 +28,13 @@
 		87ADA2971502888200764CCE /* libDrawingLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA27F1502888100764CCE /* libDrawingLib.a */; };
 		87ADA29D1502888200764CCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87ADA29B1502888200764CCE /* InfoPlist.strings */; };
 		87ADA2A01502888200764CCE /* DrawingLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA29F1502888200764CCE /* DrawingLibTests.m */; };
+		87ADA2AE1502896700764CCE /* Line.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADA2AA1502896700764CCE /* Line.h */; };
+		87ADA2AF1502896700764CCE /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA2AB1502896700764CCE /* Line.m */; };
+		87ADA2B01502896700764CCE /* UICanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADA2AC1502896700764CCE /* UICanvasView.h */; };
+		87ADA2B11502896700764CCE /* UICanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA2AD1502896700764CCE /* UICanvasView.m */; };
+		87ADA2B7150289A400764CCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADA2B6150289A300764CCE /* CoreGraphics.framework */; };
+		87ADA2BA15028C5C00764CCE /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADA2B815028C5C00764CCE /* Color.h */; };
+		87ADA2BB15028C5C00764CCE /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADA2B915028C5C00764CCE /* Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +48,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87466899150AD5FD00104803 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		8746689A150AD5FD00104803 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		8746689E150ADC5B00104803 /* Bullseye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullseye.h; sourceTree = "<group>"; };
+		8746689F150ADC5B00104803 /* Bullseye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullseye.m; sourceTree = "<group>"; };
+		877463861502A3D800AD035D /* AnimationLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLoop.h; sourceTree = "<group>"; };
+		877463871502A3D800AD035D /* AnimationLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLoop.m; sourceTree = "<group>"; };
+		8774638B1502A46900AD035D /* AnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDelegate.h; sourceTree = "<group>"; };
+		877463F81502BBD300AD035D /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		877463F91502BBD300AD035D /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		877463FC1502BBE000AD035D /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		877463FD1502BBE000AD035D /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		877464001502C53900AD035D /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		877464011502C53900AD035D /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		87ADA27F1502888100764CCE /* libDrawingLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDrawingLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ADA2821502888100764CCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		87ADA2861502888100764CCE /* DrawingLib-Prefix.pch */ = {isa = PBXFileReference; path = "DrawingLib-Prefix.pch"; sourceTree = "<group>"; };
-		87ADA2871502888100764CCE /* DrawingLib.h */ = {isa = PBXFileReference; path = DrawingLib.h; sourceTree = "<group>"; };
+		87ADA2861502888100764CCE /* DrawingLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingLib-Prefix.pch"; sourceTree = "<group>"; };
+		87ADA2871502888100764CCE /* DrawingLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingLib.h; sourceTree = "<group>"; };
 		87ADA2881502888100764CCE /* DrawingLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingLib.m; sourceTree = "<group>"; };
 		87ADA28F1502888100764CCE /* DrawingLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ADA2901502888100764CCE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		87ADA2921502888200764CCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		87ADA29A1502888200764CCE /* DrawingLibTests-Info.plist */ = {isa = PBXFileReference; path = "DrawingLibTests-Info.plist"; sourceTree = "<group>"; };
+		87ADA29A1502888200764CCE /* DrawingLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingLibTests-Info.plist"; sourceTree = "<group>"; };
 		87ADA29C1502888200764CCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		87ADA29E1502888200764CCE /* DrawingLibTests.h */ = {isa = PBXFileReference; path = DrawingLibTests.h; sourceTree = "<group>"; };
+		87ADA29E1502888200764CCE /* DrawingLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingLibTests.h; sourceTree = "<group>"; };
 		87ADA29F1502888200764CCE /* DrawingLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingLibTests.m; sourceTree = "<group>"; };
+		87ADA2AA1502896700764CCE /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		87ADA2AB1502896700764CCE /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		87ADA2AC1502896700764CCE /* UICanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICanvasView.h; sourceTree = "<group>"; };
+		87ADA2AD1502896700764CCE /* UICanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICanvasView.m; sourceTree = "<group>"; };
+		87ADA2B6150289A300764CCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87ADA2B815028C5C00764CCE /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		87ADA2B915028C5C00764CCE /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ADA2B7150289A400764CCE /* CoreGraphics.framework in Frameworks */,
 				87ADA2831502888100764CCE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,9 +106,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		877463F71502BBBF00AD035D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				87ADA2AA1502896700764CCE /* Line.h */,
+				87ADA2AB1502896700764CCE /* Line.m */,
+				877463F81502BBD300AD035D /* Circle.h */,
+				877463F91502BBD300AD035D /* Circle.m */,
+				877463FC1502BBE000AD035D /* Shape.h */,
+				877463FD1502BBE000AD035D /* Shape.m */,
+				877464001502C53900AD035D /* Image.h */,
+				877464011502C53900AD035D /* Image.m */,
+				87466899150AD5FD00104803 /* Rectangle.h */,
+				8746689A150AD5FD00104803 /* Rectangle.m */,
+				8746689E150ADC5B00104803 /* Bullseye.h */,
+				8746689F150ADC5B00104803 /* Bullseye.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
 		87ADA2741502888100764CCE = {
 			isa = PBXGroup;
 			children = (
+				87ADA2B6150289A300764CCE /* CoreGraphics.framework */,
 				87ADA2841502888100764CCE /* DrawingLib */,
 				87ADA2981502888200764CCE /* DrawingLibTests */,
 				87ADA2811502888100764CCE /* Frameworks */,
@@ -97,9 +158,17 @@
 		87ADA2841502888100764CCE /* DrawingLib */ = {
 			isa = PBXGroup;
 			children = (
+				877463F71502BBBF00AD035D /* Shapes */,
+				87ADA2AC1502896700764CCE /* UICanvasView.h */,
+				87ADA2AD1502896700764CCE /* UICanvasView.m */,
 				87ADA2871502888100764CCE /* DrawingLib.h */,
 				87ADA2881502888100764CCE /* DrawingLib.m */,
 				87ADA2851502888100764CCE /* Supporting Files */,
+				87ADA2B815028C5C00764CCE /* Color.h */,
+				87ADA2B915028C5C00764CCE /* Color.m */,
+				877463861502A3D800AD035D /* AnimationLoop.h */,
+				877463871502A3D800AD035D /* AnimationLoop.m */,
+				8774638B1502A46900AD035D /* AnimationDelegate.h */,
 			);
 			path = DrawingLib;
 			sourceTree = "<group>";
@@ -138,6 +207,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ADA2AE1502896700764CCE /* Line.h in Headers */,
+				87ADA2B01502896700764CCE /* UICanvasView.h in Headers */,
+				87ADA2BA15028C5C00764CCE /* Color.h in Headers */,
+				877463881502A3D900AD035D /* AnimationLoop.h in Headers */,
+				8774638C1502A46900AD035D /* AnimationDelegate.h in Headers */,
+				877463FA1502BBD300AD035D /* Circle.h in Headers */,
+				877463FE1502BBE000AD035D /* Shape.h in Headers */,
+				877464021502C53900AD035D /* Image.h in Headers */,
+				8746689B150AD5FD00104803 /* Rectangle.h in Headers */,
+				874668A0150ADC5B00104803 /* Bullseye.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +318,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				87ADA2891502888100764CCE /* DrawingLib.m in Sources */,
+				87ADA2AF1502896700764CCE /* Line.m in Sources */,
+				87ADA2B11502896700764CCE /* UICanvasView.m in Sources */,
+				87ADA2BB15028C5C00764CCE /* Color.m in Sources */,
+				877463891502A3D900AD035D /* AnimationLoop.m in Sources */,
+				877463FB1502BBD300AD035D /* Circle.m in Sources */,
+				877463FF1502BBE000AD035D /* Shape.m in Sources */,
+				877464031502C53900AD035D /* Image.m in Sources */,
+				8746689C150AD5FD00104803 /* Rectangle.m in Sources */,
+				874668A1150ADC5B00104803 /* Bullseye.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +475,7 @@
 				87ADA2A51502888200764CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87ADA2A61502888200764CCE /* Build configuration list for PBXNativeTarget "DrawingLibTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +484,7 @@
 				87ADA2A81502888200764CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
