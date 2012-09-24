@@ -45,4 +45,14 @@
     color->alpha = alpha;
     return color;
 }
+
++(RGBColor *)initWithInt32:(UInt32)int32 {
+    RGBColor *color = [RGBColor alloc];
+    color->red   = (CGFloat)((int32 >> 16) & 0xFF)/255.0f;
+    color->green = (CGFloat)((int32 >>  8) & 0xFF)/255.0f;
+    color->blue  = (CGFloat)((int32      ) & 0xFF)/255.0f;
+    color->alpha = (CGFloat)((int32 >> 24) & 0xFF)/255.0f;
+    return color;
+}
+
 @end

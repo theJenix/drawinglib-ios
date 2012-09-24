@@ -25,6 +25,8 @@
 
 +(RGBColor *)initWithRed:(CGFloat)red andGreen:(CGFloat)green andBlue:(CGFloat)blue andAlpha:(CGFloat)alpha;
 
++(RGBColor *)initWithInt32:(UInt32)int32;
+
 @end
 
 //populated in the RGBColor initialize method

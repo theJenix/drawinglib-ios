@@ -36,7 +36,6 @@ double MachTimeToSecs(uint64_t time)
  * invoke the method called 'sel' on 'target', the method has the
  * signature '(void)selector:(CADisplayLink *)sender'. */
 
-//Psuedo-code for what I'm currently using.
 -(void) doFrame:(id)data
 {
     static double bank = 0;

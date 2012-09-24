@@ -10,12 +10,13 @@
 
 @implementation Line
 
-@synthesize start, end, angleFromZero, color;
+@synthesize start, end, lineWidth, color;
 
 -(id)init {
     self = [super init];
     if (self != nil) {
-        color = kColorBlack; // default color is black
+        color     = kColorBlack; // default color is black
+        lineWidth = 2.0;         // default width is 2 units (??)
     }
     return self;
 }
@@ -24,7 +25,6 @@
     Line * line = [[self alloc]init];
     line.start = start;
     line.end   = end;
-    line.angleFromZero = atan2(end.y - start.y, end.x - start.x);
     return line;
 }
 
@@ -35,14 +35,24 @@
     
     line.start = start;
     line.end   = end;
-    line.angleFromZero = atan2(ey - sy, ex - sx);
     return line;
 }
 
 static bool IntersectsV(CGPoint a1, CGPoint a2, CGPoint b1, CGPoint b2/*, out Vector2 intersection*/);
 
--(Boolean)intersects:(Line *)l2 {
-    return IntersectsV(self.start, self.end, l2.start, l2.end);
+-(double)angleFromZero {
+    return atan2(end.y - start.y, end.x - start.x);
+}
+
+-(Boolean)intersectsLine:(Line *)line {
+    return IntersectsV(self.start, self.end, line.start, line.end);
+}
+
+-(Boolean)intersectsRectangle:(Rectangle *)rect {
+    return IntersectsV(self.start, self.end, rect.topLeft,    rect.topRight)    ||
+           IntersectsV(self.start, self.end, rect.topRight,   rect.bottomRight) ||
+           IntersectsV(self.start, self.end, rect.bottomLeft, rect.bottomRight) ||
+           IntersectsV(self.start, self.end, rect.topLeft,    rect.bottomLeft);
 }
 
 static bool IntersectsV(CGPoint a1, CGPoint a2, CGPoint b1, CGPoint b2/*, out Vector2 intersection*/) {
@@ -67,7 +77,7 @@ static bool IntersectsV(CGPoint a1, CGPoint a2, CGPoint b1, CGPoint b2/*, out Ve
 #pragma mark - Drawing
 
 -(void) draw:(CGContextRef)context into:(CGRect) rect {
-    CGContextSetLineWidth(context, 5.0);
+    CGContextSetLineWidth(context, lineWidth);
     
     CGColorRef cgcf = [color getCGColor];
     
@@ -79,4 +89,40 @@ static bool IntersectsV(CGPoint a1, CGPoint a2, CGPoint b1, CGPoint b2/*, out Ve
     CGContextStrokePath(context);
     CGColorRelease(cgcf);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end

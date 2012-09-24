@@ -9,23 +9,29 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CGGeometry.h>
 #import "Shape.h"
+#import "Rectangle.h"
 #import "Color.h"
 
 @interface Line : Shape {
     CGPoint start;
     CGPoint end;
-    double  angleFromZero;
+    CGFloat lineWidth;
+    
     Color  *color;
 }
 
 @property CGPoint start;
 @property CGPoint end;
-@property double  angleFromZero;
+@property CGFloat lineWidth;
+
+@property(readonly) double angleFromZero;
 @property(retain) Color *color;
 
 +(Line *)withPoint:(CGPoint)start andPoint:(CGPoint)end;
 +(Line *)withStartX:(int)sx andStartY:(int)sy andEndX:(int)ex andEndY:(int)ey;
 
--(Boolean)intersects:(Line *)line;
+-(Boolean)intersectsLine:(Line *)line;
+
+-(Boolean)intersectsRectangle:(Rectangle *)rect;
 
 @end
