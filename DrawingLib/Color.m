@@ -36,23 +36,20 @@
     return color;
 }
 
-
-+(RGBColor *)initWithRed:(CGFloat)red andGreen:(CGFloat)green andBlue:(CGFloat)blue andAlpha:(CGFloat)alpha {
-    RGBColor *color = [RGBColor alloc];
-    color->red   = red;
-    color->green = green;
-    color->blue  = blue;
-    color->alpha = alpha;
-    return color;
+-(id)initWithRed:(CGFloat)r andGreen:(CGFloat)g andBlue:(CGFloat)b andAlpha:(CGFloat)a {
+    self->red = r;
+    self->blue = b;
+    self->green = g;
+    self->alpha = a;
+    return self;
 }
 
-+(RGBColor *)initWithInt32:(UInt32)int32 {
-    RGBColor *color = [RGBColor alloc];
-    color->red   = (CGFloat)((int32 >> 16) & 0xFF)/255.0f;
-    color->green = (CGFloat)((int32 >>  8) & 0xFF)/255.0f;
-    color->blue  = (CGFloat)((int32      ) & 0xFF)/255.0f;
-    color->alpha = (CGFloat)((int32 >> 24) & 0xFF)/255.0f;
-    return color;
+-(id)initWithInt32:(UInt32)int32 {
+    self->red   = (CGFloat)((int32 >> 16) & 0xFF)/255.0f;
+    self->green = (CGFloat)((int32 >>  8) & 0xFF)/255.0f;
+    self->blue  = (CGFloat)((int32      ) & 0xFF)/255.0f;
+    self->alpha = (CGFloat)((int32 >> 24) & 0xFF)/255.0f;
+    return self;
 }
 
 @end
